@@ -1,0 +1,22 @@
+{
+  "name": "degreezzy",
+  "version": "1.0.0",
+  "description": "Helper functions for working with degrees and directions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IOINITID/degreezzy.git"
+  },
+  "keywords": [
+    "Degreezzy, Degree, Direction, Navigation, Geo, Location"
+  ],
+  "author": "Igor Orishchenko <ioinitid@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IOINITID/degreezzy/issues"
+  },
+  "homepage": "https://github.com/IOINITID/degreezzy#readme"
+}
