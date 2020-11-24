@@ -21,21 +21,17 @@ import { getDirectionByDegrees, getDegreesByDirection } from 'degreezzy';
 Now you can use this in your project, for example:
 
 ```
-const degrees = 360;
-// Degrees value.
+const degrees = 360; // Degrees value.
 
-const direction = getDirectionByDegrees(degrees);
-// Returns a direction value: 'N';
+const direction = getDirectionByDegrees(degrees); // Returns a direction value: 'N';
 ```
 
 You can also:
 
 ```
-const direction = 'N';
-// Direction value.
+const direction = 'N'; // Direction value.
 
-const degrees = getDegreesByDirection(direction);
-// Returns a degrees value: 360;
+const degrees = getDegreesByDirection(direction); // Returns a degrees value: 360;
 ```
 
 ## Thanks for using this library.
