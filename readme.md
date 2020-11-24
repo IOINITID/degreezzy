@@ -15,18 +15,30 @@ npm install --save degreezzy
 After that, you need to import the package into your project:
 
 ```
-import { getDirectionByDegrees } from 'degreezzy';
+import { getDirectionByDegrees, getDegreesByDirection } from 'degreezzy';
 ```
 
 Now you can use this in your project, for example:
 
 ```
-const degrees = 180; // Degrees in numbers.
+const degrees = 360;
+// Degrees value.
 
-const direction = getDirectionByDegrees(degrees); // Returns a string value: "S";
+const direction = getDirectionByDegrees(degrees);
+// Returns a direction value: 'N';
+```
+
+You can also:
+
+```
+const direction = 'N';
+// Direction value.
+
+const degrees = getDegreesByDirection(direction);
+// Returns a degrees value: 360;
 ```
 
 ## Thanks for using this library.
 
-If you have any suggestions or improvements, we are always open to the pull requests.
-Also, if you liked it, you can put a star on the git hub, thanks!
+If you have any suggestions or improvements, we are always open to the Pull Requests.
+Also, if you liked it, you can put a star on the GitHub, thanks!
