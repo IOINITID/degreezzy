@@ -1,3 +1,5 @@
+##**Degreezzy** [![npm version](https://badge.fury.io/js/degreezzy.svg)](https://badge.fury.io/js/degreezzy)
+
 ## What is it? 🐱
 
 It is a library with utilitarian functions for working with degrees and directions.
