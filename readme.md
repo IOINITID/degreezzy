@@ -1,7 +1,4 @@
-# **Degreezzy**
-![Logo](https://github.com/IOINITID/degreezzy/blob/master/logo.svg "Logo")
-
-[![npm version](https://badge.fury.io/js/degreezzy.svg)](https://badge.fury.io/js/degreezzy)
+# **Degreezzy** [![npm version](https://badge.fury.io/js/degreezzy.svg)](https://badge.fury.io/js/degreezzy)
 
 ## What is it? 🐱
 
