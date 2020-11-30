@@ -13,4 +13,18 @@ declare module 'degreezzy' {
    * @return Degrees value.
    */
   export function getDegreesByDirection(direction: string, rounding?: boolean): number;
+
+  /**
+   * @description Get grams from kilograms value.
+   * @param kilograms Kilograms value.
+   * @return Grams value.
+   */
+  export function getGramsFromKilograms(kilograms: number): number;
+
+  /**
+   * @description Get kilograms from grams value.
+   * @param grams Grams value.
+   * @return Kilograms value.
+   */
+  export function getKilogramsFromGrams(grams: number): number;
 }

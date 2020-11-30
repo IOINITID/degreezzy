@@ -63,7 +63,6 @@ const getDirectionByDegrees = (degrees) => {
   return direction;
 };
 
-
 /**
  * @description Get degrees by direction string.
  * @param {String} direction Direction string value, example: "N".
@@ -133,7 +132,31 @@ const getDegreesByDirection = (direction, rounding = false) => {
   return degrees;
 };
 
+/**
+ * @description Get grams from kilograms value.
+ * @param {Number} kilograms Kilograms value.
+ * @return {Number} Grams value.
+ */
+const getGramsFromKilograms = (kilograms) => {
+  const GRAMS_IN_KILOGRAM = 1000;
+
+  return kilograms / GRAMS_IN_KILOGRAM;
+};
+
+/**
+ * @description Get kilograms from grams value.
+ * @param {Number} grams Grams value.
+ * @return {Number} Kilograms value.
+ */
+const getKilogramsFromGrams = (grams) => {
+  const GRAMS_IN_KILOGRAM = 1000;
+
+  return grams / GRAMS_IN_KILOGRAM;
+};
+
 export {
   getDirectionByDegrees,
-  getDegreesByDirection
+  getDegreesByDirection,
+  getGramsFromKilograms,
+  getKilogramsFromGrams
 };
