@@ -27,4 +27,18 @@ declare module 'degreezzy' {
    * @return Kilograms value.
    */
   export function getKilogramsFromGrams(grams: number): number;
+
+  /**
+   * @description Get radians value from degrees.
+   * @param degrees Degrees value.
+   * @return Radians value.
+   */
+  export function getRadiansFromDegrees(degrees: number): number;
+
+  /**
+   * @description Get degrees value from radians.
+   * @param radians Radians value. 
+   * @return Degrees value.
+   */
+  export function getDegreesFromRadians(radians: number): number;
 }

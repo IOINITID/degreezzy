@@ -154,9 +154,29 @@ const getKilogramsFromGrams = (grams) => {
   return grams / GRAMS_IN_KILOGRAM;
 };
 
+/**
+ * @description Get radians value from degrees.
+ * @param {Number} degrees Degrees value.
+ * @return {Number} Radians value.
+ */
+const getRadiansFromDegrees = (degrees) => {
+  return degrees * Math.PI / 180;
+};
+
+/**
+ * @description Get degrees value from radians.
+ * @param {Number} radians Radians value. 
+ * @return {Number} Degrees value.
+ */
+const getDegreesFromRadians = (radians) => {
+  return radians * 180 / Math.PI;
+};
+
 export {
   getDirectionByDegrees,
   getDegreesByDirection,
   getGramsFromKilograms,
-  getKilogramsFromGrams
+  getKilogramsFromGrams,
+  getRadiansFromDegrees,
+  getDegreesFromRadians
 };
