@@ -3,7 +3,7 @@
  * @param {Number} degrees Degrees, example: "180".
  * @return {String} Direction string.
  */
-const getDirectionByDegrees = (degrees) => {
+const getDirectionByDegrees = (degrees: number): string => {
   let direction;
 
   switch (true) {
@@ -69,7 +69,7 @@ const getDirectionByDegrees = (degrees) => {
  * @param {Boolean} rounding Rounding degrees as it can be fractional. Default value: "false";
  * @return {Number} Degrees value.
  */
-const getDegreesByDirection = (direction, rounding = false) => {
+const getDegreesByDirection = (direction: string, rounding?: boolean): number => {
   let degrees;
 
   switch (true) {
@@ -137,7 +137,7 @@ const getDegreesByDirection = (direction, rounding = false) => {
  * @param {Number} kilograms Kilograms value.
  * @return {Number} Grams value.
  */
-const getGramsFromKilograms = (kilograms) => {
+const getGramsFromKilograms = (kilograms: number): number => {
   const GRAMS_IN_KILOGRAM = 1000;
 
   return kilograms / GRAMS_IN_KILOGRAM;
@@ -148,7 +148,7 @@ const getGramsFromKilograms = (kilograms) => {
  * @param {Number} grams Grams value.
  * @return {Number} Kilograms value.
  */
-const getKilogramsFromGrams = (grams) => {
+const getKilogramsFromGrams = (grams: number): number => {
   const GRAMS_IN_KILOGRAM = 1000;
 
   return grams / GRAMS_IN_KILOGRAM;
@@ -159,16 +159,16 @@ const getKilogramsFromGrams = (grams) => {
  * @param {Number} degrees Degrees value.
  * @return {Number} Radians value.
  */
-const getRadiansFromDegrees = (degrees) => {
+const getRadiansFromDegrees = (degrees: number): number => {
   return degrees * Math.PI / 180;
 };
 
 /**
  * @description Get degrees value from radians.
- * @param {Number} radians Radians value. 
+ * @param {Number} radians Radians value.
  * @return {Number} Degrees value.
  */
-const getDegreesFromRadians = (radians) => {
+const getDegreesFromRadians = (radians: number): number => {
   return radians * 180 / Math.PI;
 };
 

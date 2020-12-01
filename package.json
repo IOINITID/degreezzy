@@ -3,9 +3,19 @@
   "version": "1.2.0",
   "description": "Helper functions for working with degrees and directions.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "package.json",
+    "readme.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
+  "prepublishOnly": "npm run build && cp -r ./dist/* . && rm -rf ./dist",
+  "postpublish": "git clean -fd",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IOINITID/degreezzy.git"
@@ -18,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/IOINITID/degreezzy/issues"
   },
-  "homepage": "https://github.com/IOINITID/degreezzy#readme"
+  "homepage": "https://github.com/IOINITID/degreezzy#readme",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-htmlacademy": "^0.6.0",
+    "eslint-plugin-react": "^7.21.5",
+    "typescript": "^4.1.2"
+  }
 }
