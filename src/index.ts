@@ -133,26 +133,26 @@ const getDegreesByDirection = (direction: string, rounding?: boolean): number =>
 };
 
 /**
- * @description Get radians value from degrees.
+ * @description Get radians by degrees value.
  * @param {Number} degrees Degrees value.
  * @return {Number} Radians value.
  */
-const getRadiansFromDegrees = (degrees: number): number => {
+const getRadiansByDegrees = (degrees: number): number => {
   return degrees * Math.PI / 180;
 };
 
 /**
- * @description Get degrees value from radians.
+ * @description Get degrees by radians value.
  * @param {Number} radians Radians value.
  * @return {Number} Degrees value.
  */
-const getDegreesFromRadians = (radians: number): number => {
+const getDegreesByRadians = (radians: number): number => {
   return radians * 180 / Math.PI;
 };
 
 export {
   getDirectionByDegrees,
   getDegreesByDirection,
-  getRadiansFromDegrees,
-  getDegreesFromRadians
+  getRadiansByDegrees,
+  getDegreesByRadians
 };
