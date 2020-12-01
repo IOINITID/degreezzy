@@ -1,6 +1,6 @@
 {
   "name": "degreezzy",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Helper functions for working with degrees and directions.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -14,8 +14,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "prepublishOnly": "npm run build && cp -r ./dist/* . && rm -rf ./dist",
-  "postpublish": "git clean -fd",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IOINITID/degreezzy.git"
