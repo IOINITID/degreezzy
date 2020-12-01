@@ -133,28 +133,6 @@ const getDegreesByDirection = (direction: string, rounding?: boolean): number =>
 };
 
 /**
- * @description Get grams from kilograms value.
- * @param {Number} kilograms Kilograms value.
- * @return {Number} Grams value.
- */
-const getGramsFromKilograms = (kilograms: number): number => {
-  const GRAMS_IN_KILOGRAM = 1000;
-
-  return kilograms / GRAMS_IN_KILOGRAM;
-};
-
-/**
- * @description Get kilograms from grams value.
- * @param {Number} grams Grams value.
- * @return {Number} Kilograms value.
- */
-const getKilogramsFromGrams = (grams: number): number => {
-  const GRAMS_IN_KILOGRAM = 1000;
-
-  return grams / GRAMS_IN_KILOGRAM;
-};
-
-/**
  * @description Get radians value from degrees.
  * @param {Number} degrees Degrees value.
  * @return {Number} Radians value.
@@ -175,8 +153,6 @@ const getDegreesFromRadians = (radians: number): number => {
 export {
   getDirectionByDegrees,
   getDegreesByDirection,
-  getGramsFromKilograms,
-  getKilogramsFromGrams,
   getRadiansFromDegrees,
   getDegreesFromRadians
 };
