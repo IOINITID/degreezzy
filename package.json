@@ -1,6 +1,6 @@
 {
   "name": "degreezzy",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "Helper functions for working with degrees and directions.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -19,7 +19,7 @@
     "url": "git+https://github.com/IOINITID/degreezzy.git"
   },
   "keywords": [
-    "Degreezzy, Degree, Direction, Navigation, Geo, Location"
+    "Degreezzy, Degree, Direction, Navigation, Geo, Location, Radians"
   ],
   "author": "Igor Orishchenko <ioinitid@gmail.com>",
   "license": "ISC",

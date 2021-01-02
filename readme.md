@@ -59,5 +59,4 @@ const radians = getRadiansByDegrees(degrees); // Returns a radians value: 6.2831
 
 ## Thanks for using this library.
 
-If you have any suggestions or improvements, we are always open to the Pull Requests.
-Also, if you liked it, you can put a star on the GitHub, thanks!
+If you have any suggestions or improvements, we are always open to the Pull Requests. If you liked it, you can put a star on the GitHub, thanks!
