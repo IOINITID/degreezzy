@@ -1,4 +1,10 @@
-# **Degreezzy** [![npm version](https://badge.fury.io/js/degreezzy.svg)](https://badge.fury.io/js/degreezzy) ![npm](https://img.shields.io/npm/dw/degreezzy)
+<!-- # **Degreezzy** -->
+<!-- ![Degreezzy logo](logo.svg) -->
+
+![Degreezzy logo](logo-degreezzy.svg)
+
+[![npm version](https://badge.fury.io/js/degreezzy.svg)](https://badge.fury.io/js/degreezzy)
+![npm](https://img.shields.io/npm/dw/degreezzy)
 
 ## What is it? 🐱
 
