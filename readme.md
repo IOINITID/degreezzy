@@ -1,4 +1,4 @@
-![degreezzy logo](logo.svg)
+![logo](logo.svg)
 
 [![npm version](https://badge.fury.io/js/degreezzy.svg)](https://badge.fury.io/js/degreezzy)
 ![npm](https://img.shields.io/npm/dw/degreezzy)
@@ -35,6 +35,26 @@ You can also:
 const direction = 'N'; // Direction value.
 
 const degrees = getDegreesByDirection(direction); // Returns a degrees value: 360;
+```
+
+There are also functions for converting radians to degrees.
+
+```
+import { getDegreesByRadians, getRadiansByDegrees } from 'degreezzy';
+```
+
+Which you can use that way.
+
+```
+const radians = 6.283185307179586; // Radians value.
+const degrees = getDegreesByRadians(radians); // Returns a degrees value: 360.
+```
+
+Or degrees to radians.
+
+```
+const degrees = 360; // Degrees value.
+const radians = getRadiansByDegrees(degrees); // Returns a radians value: 6.283185307179586.
 ```
 
 ## Thanks for using this library.
