@@ -1,7 +1,4 @@
-<!-- # **Degreezzy** -->
-<!-- ![Degreezzy logo](logo.svg) -->
-
-![Degreezzy logo](logo-degreezzy.svg)
+![degreezzy logo](logo.svg)
 
 [![npm version](https://badge.fury.io/js/degreezzy.svg)](https://badge.fury.io/js/degreezzy)
 ![npm](https://img.shields.io/npm/dw/degreezzy)
