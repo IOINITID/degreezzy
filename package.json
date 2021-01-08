@@ -22,7 +22,7 @@
     "Degreezzy, Degree, Direction, Navigation, Geo, Location, Radians"
   ],
   "author": "Igor Orishchenko <ioinitid@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IOINITID/degreezzy/issues"
   },
