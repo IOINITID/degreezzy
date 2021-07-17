@@ -4,7 +4,7 @@ All changes will be documented in this file.
 
 ---
 
-### 1.9.3 - (2021-07-17)
+### 1.9.4 - (2021-07-17)
 Added:
 - Added Webpack as module bundler.
 - Added source map file.
@@ -14,6 +14,11 @@ Added:
 Changed:
 - Decrease bundle size from 4 KB to 2 KB.
 - Updated npm commands for build and publish.
+
+---
+
+### 1.9.3
+No changes added.
 
 ---
 

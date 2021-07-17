@@ -1,6 +1,6 @@
 {
   "name": "degreezzy",
-  "version": "1.9.3",
+  "version": "1.9.4",
   "description": "Helper functions for working with degrees and directions.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -8,6 +8,7 @@
     "index.js",
     "index.d.ts",
     "package.json",
+    "changelog.md",
     "readme.md"
   ],
   "scripts": {
@@ -16,8 +17,8 @@
     "postbuild": "cp ./package.json ./dist && cp ./readme.md ./dist && cp ./changelog.md ./dist",
     "pack": "npm pack ./dist",
     "pack-check": "npm run pack ./dist --dry-run",
-    "prepublish": "yarn prebuild && yarn build && yarn postbuild",
-    "publish": "yarn prepublish && npm publish ./dist"
+    "prepublish": "npm run prebuild && npm run build && npm run postbuild",
+    "publish": "npm run prepublish && npm publish ./dist"
   },
   "repository": {
     "type": "git",
