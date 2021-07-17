@@ -1,6 +1,6 @@
 {
   "name": "degreezzy",
-  "version": "1.9.7",
+  "version": "1.9.8",
   "description": "Helper functions for working with degrees and directions.",
   "main": "index.js",
   "types": "index.d.ts",
