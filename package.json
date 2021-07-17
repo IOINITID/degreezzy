@@ -1,6 +1,6 @@
 {
   "name": "degreezzy",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "Helper functions for working with degrees and directions.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -11,8 +11,13 @@
     "readme.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./dist && tsc && cp ./package.json ./dist && cp ./readme.md ./dist"
+    "clear": "rm -rf ./dist",
+    "build": "webpack",
+    "copy": "cp ./package.json ./dist && cp ./readme.md ./dist",
+    "pack": "npm pack ./dist",
+    "pack-check": "npm run pack ./dist --dry-run",
+    "prepublish": "yarn clear && yarn webpack && yarn copy",
+    "publish": "yarn prepublish && npm publish .dist/"
   },
   "repository": {
     "type": "git",
@@ -30,6 +35,9 @@
   "devDependencies": {
     "eslint": "^7.14.0",
     "eslint-config-htmlacademy": "^0.6.0",
-    "typescript": "^4.1.2"
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.1.2",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
   }
 }
