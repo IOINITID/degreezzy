@@ -1,6 +1,6 @@
 {
   "name": "degreezzy",
-  "version": "1.9.5",
+  "version": "1.9.7",
   "description": "Helper functions for working with degrees and directions.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -18,7 +18,7 @@
     "dist-pack": "npm pack ./dist",
     "dist-pack-check": "yarn dist-pack --dry-run",
     "dist-prepublish": "yarn dist-prebuild && yarn dist-build && yarn dist-postbuild",
-    "dist-publish": "yarn dist-prepublish && npm publish ./dist"
+    "dist-publish": "yarn dist-prepublish && npm publish --registry=https://registry.npmjs.org ./dist"
   },
   "repository": {
     "type": "git",
