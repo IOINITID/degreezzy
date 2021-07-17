@@ -11,12 +11,12 @@
     "readme.md"
   ],
   "scripts": {
-    "clear": "rm -rf ./dist",
-    "build": "webpack",
-    "copy": "cp ./package.json ./dist && cp ./readme.md ./dist",
+    "prebuild": "rm -rf ./dist",
+    "build": "webpack --progress",
+    "postbuild": "cp ./package.json ./dist && cp ./readme.md ./dist && cp ./changelog.md ./dist",
     "pack": "npm pack ./dist",
     "pack-check": "npm run pack ./dist --dry-run",
-    "prepublish": "yarn clear && yarn webpack && yarn copy",
+    "prepublish": "yarn prebuild && yarn build && yarn postbuild",
     "publish": "yarn prepublish && npm publish .dist/"
   },
   "repository": {
