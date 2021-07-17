@@ -6,8 +6,13 @@ module.exports = {
   output: {
     path: path.resolve('dist'),
     filename: 'index.js',
-    libraryTarget: 'commonjs2',
+    library: {
+      type: 'module'
+    }
   },
+  experiments: {
+    outputModule: true
+},
   module: {
     rules: [
       {
