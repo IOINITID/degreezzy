@@ -1,7 +1,6 @@
 {
-  "src/**/*.{ts}": [
+  "src/**/*.ts": [
     "prettier --write",
-    "eslint --fix",
-    "stylelint --fix",
+    "eslint --fix"
   ]
 }
