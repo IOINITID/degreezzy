@@ -8,55 +8,55 @@ const getDirectionByDegrees = (degrees: number): string => {
 
   switch (true) {
     case degrees > 11.25 && degrees < 33.75:
-      direction = `NNE`;
+      direction = 'NNE';
       break;
     case degrees > 33.75 && degrees < 56.25:
-      direction = `NE`;
+      direction = 'NE';
       break;
     case degrees > 56.25 && degrees < 78.75:
-      direction = `ENE`;
+      direction = 'ENE';
       break;
     case degrees > 78.75 && degrees < 101.25:
-      direction = `E`;
+      direction = 'E';
       break;
     case degrees > 101.25 && degrees < 123.75:
-      direction = `ESE`;
+      direction = 'ESE';
       break;
     case degrees > 123.75 && degrees < 146.25:
-      direction = `SE`;
+      direction = 'SE';
       break;
     case degrees > 146.25 && degrees < 168.75:
-      direction = `SSE`;
+      direction = 'SSE';
       break;
     case degrees > 168.75 && degrees < 191.25:
-      direction = `S`;
+      direction = 'S';
       break;
     case degrees > 191.25 && degrees < 213.75:
-      direction = `SSW`;
+      direction = 'SSW';
       break;
     case degrees > 213.75 && degrees < 236.25:
-      direction = `SW`;
+      direction = 'SW';
       break;
     case degrees > 236.25 && degrees < 258.75:
-      direction = `WSW`;
+      direction = 'WSW';
       break;
     case degrees > 258.75 && degrees < 281.25:
-      direction = `W`;
+      direction = 'W';
       break;
     case degrees > 281.25 && degrees < 303.75:
-      direction = `WNW`;
+      direction = 'WNW';
       break;
     case degrees > 303.75 && degrees < 326.25:
-      direction = `NW`;
+      direction = 'NW';
       break;
     case degrees > 326.25 && degrees < 348.75:
-      direction = `NNW`;
+      direction = 'NNW';
       break;
     case degrees > 348.75 && degrees < 11.25:
-      direction = `N`;
+      direction = 'N';
       break;
     default:
-      direction = `N`;
+      direction = 'N';
       break;
   }
 
@@ -69,56 +69,56 @@ const getDirectionByDegrees = (degrees: number): string => {
  * @param {Boolean} rounding Rounding degrees as it can be fractional. Default value: "false";
  * @return {Number} Degrees value.
  */
-const getDegreesByDirection = (direction: string, rounding?: boolean): number => {
+const getDegreesByDirection = (direction: string, rounding: boolean = false): number => {
   let degrees;
 
   switch (true) {
-    case direction === `NNE`:
+    case direction === 'NNE':
       degrees = 22.5;
       break;
-    case direction === `NE`:
+    case direction === 'NE':
       degrees = 45;
       break;
-    case direction === `ENE`:
+    case direction === 'ENE':
       degrees = 67.5;
       break;
-    case direction === `E`:
+    case direction === 'E':
       degrees = 90;
       break;
-    case direction === `ESE`:
+    case direction === 'ESE':
       degrees = 112.5;
       break;
-    case direction === `SE`:
+    case direction === 'SE':
       degrees = 135;
       break;
-    case direction === `SSE`:
+    case direction === 'SSE':
       degrees = 157.5;
       break;
-    case direction === `S`:
+    case direction === 'S':
       degrees = 180;
       break;
-    case direction === `SSW`:
+    case direction === 'SSW':
       degrees = 202.5;
       break;
-    case direction === `SW`:
+    case direction === 'SW':
       degrees = 225;
       break;
-    case direction === `WSW`:
+    case direction === 'WSW':
       degrees = 247.5;
       break;
-    case direction === `W`:
+    case direction === 'W':
       degrees = 270;
       break;
-    case direction === `WNW`:
+    case direction === 'WNW':
       degrees = 292.5;
       break;
-    case direction === `NW`:
+    case direction === 'NW':
       degrees = 315;
       break;
-    case direction === `NNW`:
+    case direction === 'NNW':
       degrees = 337.5;
       break;
-    case direction === `N`:
+    case direction === 'N':
       degrees = 360;
       break;
     default:
@@ -138,7 +138,7 @@ const getDegreesByDirection = (direction: string, rounding?: boolean): number =>
  * @return {Number} Degrees value.
  */
 const getDegreesByRadians = (radians: number): number => {
-  return radians * 180 / Math.PI;
+  return (radians * 180) / Math.PI;
 };
 
 /**
@@ -147,12 +147,7 @@ const getDegreesByRadians = (radians: number): number => {
  * @return {Number} Radians value.
  */
 const getRadiansByDegrees = (degrees: number): number => {
-  return degrees * Math.PI / 180;
+  return (degrees * Math.PI) / 180;
 };
 
-export {
-  getDirectionByDegrees,
-  getDegreesByDirection,
-  getDegreesByRadians,
-  getRadiansByDegrees
-};
+export { getDirectionByDegrees, getDegreesByDirection, getDegreesByRadians, getRadiansByDegrees };
