@@ -13,12 +13,8 @@
     "readme.md"
   ],
   "scripts": {
-    "dist-prebuild": "rm -rf ./dist",
-    "dist-build": "webpack --progress",
-    "dist-postbuild": "cp ./package.json ./dist && cp ./changelog.md ./dist && cp ./license.md ./dist && cp ./readme.md ./dist",
-    "dist-pack": "npm pack ./dist",
-    "dist-pack-check": "yarn run dist-pack --dry-run",
-    "dist-prepublish": "yarn run dist-prebuild && yarn run dist-build && yarn run dist-postbuild"
+    "prebuild": "rm -rf ./dist",
+    "build": "yarn run prebuild && webpack --progress && cp ./package.json ./dist && cp ./changelog.md ./dist && cp ./license.md ./dist && cp ./readme.md ./dist"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@
 
 ### How to publish dist:
 - Add command ```yarn install```.
-- After install packages add command ```yarn dist-prepublish```.
+- After install packages add command ```yarn run build```.
 - After build add command ```npm publish ./dist```.
 
 ### How to unpublish dist:
