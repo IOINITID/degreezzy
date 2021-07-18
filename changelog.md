@@ -10,6 +10,7 @@ Added:
 - Added source map file.
 - Added changelog.md file for version documentation.
 - Added .npmignore file for dist directory files.
+- Added license.md file with MIT License.
 - Added contributing.md file for build documentation.
 - Added additional environment files for source code development.
 

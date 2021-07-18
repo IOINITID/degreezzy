@@ -9,6 +9,7 @@
     "index.d.ts",
     "package.json",
     "changelog.md",
+    "license.md",
     "readme.md"
   ],
   "scripts": {
