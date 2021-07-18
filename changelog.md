@@ -4,9 +4,14 @@ All changes will be documented in this file.
 
 ---
 
+### 1.3.2
+Changed:
+- Updated file structure.
+
+---
+
 ### 1.3.1 - (2021-07-18)
 Added:
-- Added Webpack as module bundler.
 - Added source map file.
 - Added changelog.md file for version documentation.
 - Added .npmignore file for dist directory files.
@@ -15,7 +20,6 @@ Added:
 - Added additional environment files for source code development.
 
 Changed:
-- Decrease bundle size from 4 KB to 2 KB.
 - Updated npm commands for build and publish.
 - Updated source code formatting with prettier.
 

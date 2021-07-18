@@ -4,17 +4,9 @@
   "description": "Helper functions for working with degrees and directions.",
   "main": "index.js",
   "types": "index.d.ts",
-  "files": [
-    "index.js",
-    "index.d.ts",
-    "package.json",
-    "changelog.md",
-    "license.md",
-    "readme.md"
-  ],
   "scripts": {
     "prebuild": "rm -rf ./dist",
-    "build": "yarn run prebuild && webpack --progress && cp ./package.json ./dist && cp ./changelog.md ./dist && cp ./license.md ./dist && cp ./readme.md ./dist"
+    "build": "yarn run prebuild && tsc && cp ./package.json ./dist && cp ./changelog.md ./dist && cp ./license.md ./dist && cp ./readme.md ./dist"
   },
   "repository": {
     "type": "git",
