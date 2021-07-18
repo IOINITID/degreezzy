@@ -4,7 +4,7 @@ All changes will be documented in this file.
 
 ---
 
-### 2.0.0 - (2021-07-18)
+### 1.3.1 - (2021-07-18)
 Added:
 - Added Webpack as module bundler.
 - Added source map file.
