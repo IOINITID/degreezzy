@@ -4,14 +4,12 @@ All changes will be documented in this file.
 
 ---
 
-### 1.3.2
-Changed:
-- Updated file structure.
 
----
-
-### 1.3.1 - (2021-07-18)
+### 1.2.1
 Added:
+- Added TypeScript support with built-in declarations.
+- Added API for getting radians from degrees.
+- Added API for getting degrees from radians.
 - Added source map file.
 - Added changelog.md file for version documentation.
 - Added .npmignore file for dist directory files.
@@ -20,19 +18,10 @@ Added:
 - Added additional environment files for source code development.
 
 Changed:
+- Updated readme.md file for description.
 - Updated npm commands for build and publish.
 - Updated source code formatting with prettier.
-
----
-
-### 1.3.0
-Added:
-- Added TypeScript support with built-in declarations.
-- Added API for getting radians from degrees.
-- Added API for getting degrees from radians.
-
-Changed:
-- Updated readme.md file for description.
+- Updated file structure.
 
 ---
 
