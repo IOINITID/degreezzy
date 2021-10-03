@@ -13,7 +13,13 @@
     "url": "git+https://github.com/IOINITID/degreezzy.git"
   },
   "keywords": [
-    "Degreezzy, Degree, Direction, Navigation, Geo, Location, Radians"
+    "degreezzy",
+    "degree",
+    "direction",
+    "navigation",
+    "geo",
+    "location",
+    "radians"
   ],
   "author": "Igor Orishchenko <ioinitid@gmail.com>",
   "license": "MIT",
