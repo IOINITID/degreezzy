@@ -3,6 +3,7 @@
 [![npm version](https://badge.fury.io/js/degreezzy.svg)](https://badge.fury.io/js/degreezzy)
 ![npm](https://img.shields.io/npm/dw/degreezzy)
 ![license](https://badgen.net/github/license/IOINITID/degreezzy)
+[![codecov](https://codecov.io/gh/IOINITID/degreezzy/branch/master/graph/badge.svg?token=SO0DPS4UVT)](https://codecov.io/gh/IOINITID/degreezzy)
 
 ## What is it? 🐱
 
