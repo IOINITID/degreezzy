@@ -1,6 +1,10 @@
 import { getDegreesByRadians } from '../index';
 
 describe('Checks correct results', () => {
+  it('Should be defined', () => {
+    expect(getDegreesByRadians).toBeDefined();
+  });
+
   it('Should have a getDegreesByRadians function', () => {
     expect(typeof getDegreesByRadians).toBe('function');
   });

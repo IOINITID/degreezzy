@@ -1,6 +1,10 @@
 import { getDirectionByDegrees } from '../index';
 
 describe('Checks correct results', () => {
+  it('Should be defined', () => {
+    expect(getDirectionByDegrees).toBeDefined();
+  });
+
   it('Should have a getDirectionByDegrees function', () => {
     expect(typeof getDirectionByDegrees).toBe('function');
   });
