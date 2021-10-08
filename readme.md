@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/degreezzy.svg)](https://badge.fury.io/js/degreezzy)
 ![npm](https://img.shields.io/npm/dw/degreezzy)
 ![license](https://badgen.net/github/license/IOINITID/degreezzy)
-[![build](https://github.com/IOINITID/degreezzy/actions/workflows/build-action.yml/badge.svg)](https://github.com/IOINITID/degreezzy/actions/workflows/build-action.yml)
+[![build](https://github.com/IOINITID/degreezzy/actions/workflows/build-action.yml/badge.svg?branch=master)](https://github.com/IOINITID/degreezzy/actions/workflows/build-action.yml)
 [![codecov](https://codecov.io/gh/IOINITID/degreezzy/branch/master/graph/badge.svg?token=SO0DPS4UVT)](https://codecov.io/gh/IOINITID/degreezzy)
 
 ## What is it? 🐱
